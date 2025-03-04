@@ -1,25 +1,25 @@
 def physics():
-    a=input("Assignment marks:")
+    a=input("Physics Assignment marks:")
     a_num=int(a)
-    c=input("Coursework marks:")
+    c=input("Physics Coursework marks:")
     c_num=int(c)
-    m=input("Mid term marks:")
+    m=input("Physics Mid term marks:")
     m_num=int(m)
-    e=input("End of term marks:")
+    e=input("Physics End of term marks:")
     e_num=int(e)
 
     s=a_num+c_num+m_num+e_num
     average=s/4
-    print(average)
+    print("Average for Physics",average)
 physics()
 def chemistry():
-    a=input("Assignment marks:")
+    a=input("Chemistry Assignment marks:")
     a_num=int(a)
-    c=input("Coursework marks:")
+    c=input("Chemistry Coursework marks:")
     c_num=int(c)
-    m=input("Mid term marks:")
+    m=input("Chemistry Mid term marks:")
     m_num=int(m)
-    e=input("End of term marks:")
+    e=input("Chemistry End of term marks:")
     e_num=int(e)
 
     s=a_num+c_num+m_num+e_num
@@ -28,13 +28,13 @@ def chemistry():
 chemistry()
 
 def math():
-    a=input("Assignment marks:")
+    a=input("Math Assignment marks:")
     a_num=int(a)
-    c=input("Coursework marks:")
+    c=input("Math Coursework marks:")
     c_num=int(c)
-    m=input("Mid term marks:")
+    m=input("Math Mid term marks:")
     m_num=int(m)
-    e=input("End of term marks:")
+    e=input("Math End of term marks:")
     e_num=int(e)
 
     s=a_num+c_num+m_num+e_num
